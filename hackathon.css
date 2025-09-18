@@ -1,0 +1,307 @@
+.body{
+    width: 100%;
+    overflow: hidden;
+    background-color: #e4d1c0;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    justify-self: center;
+    gap: 100px;
+    justify-content: center;
+    /* padding: 20px 20px 20px 20px; */
+    align-items: center;
+     background-color: #75522d;
+     position: absolute;
+     z-index: 1000;
+     margin-top: 30px;
+}
+.logo{
+    width: 10vw;
+    height: 8vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-tags{
+    width: 60vw;
+    height: 8vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.nav-tags a{
+    text-decoration: none;
+    color: white;
+}
+.nav-tags button{
+    border-radius: 40px;
+    border: none;
+    background-color: #a76c34;
+    color: white;
+    width: 8vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.button-icon{
+    /* border: 1px solid black; */
+    width: 2vw;
+    height: 3vh;
+}
+.section-one{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* margin: 0; */
+    /* border: 1px solid black; */
+}
+ .image-container{
+    background-image: url(WhatsApp\ Image\ 2025-09-18\ at\ 03.34.06_b1296807.jpg);
+    background-size: cover;
+    width: 100%; 
+     height: 100vh;
+     /* border: 1px solid black;  */
+     overflow: hidden; 
+     position: relative;
+} 
+.sec1-contents{
+    /* border: 1px solid black; */
+    width: 50vw;
+    height: 65vh;
+    position: absolute;
+    margin-top: -450px;
+    color: white;
+    margin-left: 60px;
+}
+.sec1-contents h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.sec1-contents h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+.sec1-contents span{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sec1-contents button{
+    border-radius: 40px;
+    border: none;
+    background-color: #a76c34;
+    color: white;
+    width: 10vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.button-icon2{
+    /* border: 1px solid black; */
+    width: 2vw;
+    height: 3vh;
+}
+.section-two{
+    background-color: #e4d1c0;
+    width: auto;
+    height: 100vh;
+    display: flex;
+}
+.image{
+    width: 50%;
+    margin-top:100px ;
+}
+.texts{
+    width: 50%;
+    margin-top: 100px;
+}
+.texts b{
+    font-weight: 300;
+    font-size: 18px;
+}
+.texts h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+.texts h2{
+    color: #a76c34;
+    font-size: 45px;
+    font-weight: 300;
+}
+.section-three{
+    background-image: url(./WhatsApp\ Image\ 2025-09-18\ at\ 03.34.04_fc9400f7.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    padding-top: 20px;
+    /* background-blend-mode: overlay; */
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-three h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+.inside-divs{
+    width: 80vw;
+    height: 30vh;
+    /* border: 1px solid black; */
+    /* align-self: center; */
+    display: flex;
+    gap: 15px;
+}
+.inside-div{
+    width: 19vw;
+    height: 30vh;
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    background-color: #372513b3;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+.iicon{
+    width: 2vw;
+    height: 2vw;
+    border: 1px solid black;
+}
+.inside-div h2{
+    font-weight: 200;
+    font-size: 24px;
+}
+.inside-div span{
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.section-four{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #e4d1c0;
+}
+.section-four h1{
+    color: #a76c34;
+    font-size: 40px;
+    font-weight: 500;
+}
+.clicks{
+    display: flex;
+    gap: 20px;
+    width: 60vw;
+    height: 8vh;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.clicks button{
+    border-radius: 40px;
+    border: none;
+    background-color: #a76c34;
+    color: white;
+    width: 12vw;
+    height: 6vh;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 200;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 55vh;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    gap: 15px;
+}
+.card{
+    width:30vw;
+    height: 55vh;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.2) ;
+}
+.card1{
+    background-image: url(./no1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card2{
+    
+}
+.inner{
+    width: 22vw;
+    height: 34vh;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-image: url(./no2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3{
+background-image: url(./o3.jpg);
+ background-size: 110%;
+    background-repeat: no-repeat;
+}
+.card4{
+    background-image: url(./no4.jpg);
+     background-size: 110%;
+    background-repeat: no-repeat;
+}
+.cards h3{
+    margin-top: 230px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.cards span{
+    color: #907d6c;
+}
+.cards h4{
+    color: #86562a;
+}
+.cardextra{
+     width:30vw;
+    height: 55vh;
+    border-radius: 10px;
+    /* border: 1px solid black;; */
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.2) ;
+}
+.cardextra h2{
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+}
